@@ -1,0 +1,56 @@
+*{
+	font-family: Verdana;
+}
+#lewy{
+	background-color: #29434E;
+	color: white;
+	text-align: center;
+	width: 70%;
+	height: 70px;
+}
+#prawy{
+	background-color: #29434E;
+	color: white;
+	width: 30%;
+	height: 70px;
+}
+#polecamy{
+	background-color: #B0BEC5;
+	height: 320px;
+	overflow: scroll;
+
+}
+#filmy_fantastyczne{
+	background-color: #B0BEC5;
+	height: 320px;
+	overflow: scroll;
+}
+footer{
+	background-color: #29434E;
+	color: white;
+}
+#film{
+	padding: 5px;
+	width: 226px;
+	height: 280px;
+
+}
+h3{
+	background-color: #546E7A;
+	color: white;
+	margin:  0px;
+}
+h4{
+	text-align: center;
+	margin: 0px;
+}
+header{
+	display: flex;
+}
+#skrypt1{
+	display: flex;
+}
+#skrypt2{
+	display: flex;
+}
+

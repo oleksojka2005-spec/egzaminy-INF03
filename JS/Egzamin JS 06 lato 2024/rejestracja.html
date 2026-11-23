@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rejestracja</title>
+	<link rel="stylesheet" type="text/css" href="styl.css">
+</head>
+<body>
+<header id="baner"> 
+<h1>Formularz rejestracyjny konferencji <i>Nasze 
+Kwiaty</i></h1>
+</header>
+<main id="glowny">
+	<div id="formularz1">
+		<h2>Dane osobowe</h2>
+		<input type="text" placeholder="Wpisz imię..." id="imie" required><br>
+		<input type="text" placeholder="Wpisz nazwisko..." id="nazwisko" required><br>
+		<button onclick="ukryj1()">Następna karta</button>
+	</div>
+	<div id="formularz2">
+		<h2>Dane kontaktowe</h2>
+		<input type="email" placeholder="Twój e-mail..." id="email"><br>
+		<input type="tel" placeholder="Twój numer telefonu..." id="numer"><br>
+		<button onclick="ukryj2()">Następna karta</button>
+	</div>
+	<div id="formularz3">
+		<h2>Hasło do logowania</h2>
+		<input type="password" placeholder="Podaj hasło" id="haslo1"><br>
+		<input type="password" placeholder="Powtórz hasło" id="haslo2"><br>
+		<button onclick="zatwierdz()">Zatwierdź</button>
+	</div>
+	
+</main>
+<section id="stopka1">
+	<video controls>Przeglądarka nie obsługuje tego formatu
+<source src="motyl.mp4" type="video/mp4">
+	</video>
+</section>
+<section id="stopka2">
+	<h3>Plan konferencji</h3>
+	<table>
+		<tr>
+			<td>9:00 - 12:00</td>
+			<td>Pielęgnacja roślin</td>
+
+		</tr>
+		<tr>
+			<td>13:00 - 15:00</td>
+			<td>Targi kwiatowe</td>
+		</tr>
+	</table>
+</section>
+<section id="stopka3">
+	<p><a href="https://kwiaty.pl/"> Internetowa kwiaciarnia</a></p>
+</section>
+<section id="stopka4">
+<p>Formularz wykonał: 000000</p>	
+</section>
+<script src="skrypt.js"></script>
+</body>
+</html>

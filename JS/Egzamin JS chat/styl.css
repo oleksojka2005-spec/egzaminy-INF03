@@ -1,0 +1,75 @@
+*{
+	font-family: Garamond;
+}
+header{
+background-color: tomato;
+color: white;
+text-align: center;
+height: 80px;
+width: 80%;
+
+}
+main{
+	width: 80%;
+	height: 600px;
+}
+aside{
+	background-color: coral;
+	width: 20%;
+	height: 680px;
+	float: right;
+
+}
+footer{
+	background-color: tomato;
+	color: white;
+	text-align: center;
+
+}
+img{
+	border-radius: 50%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#chat{
+	border: solid 1px tomato;
+	margin: 15px;
+	height: 470px;
+	overflow: scroll;
+}
+.chatJ{
+	border-radius: 5px;
+	width: 90%;
+	height: 70px;
+	padding: 3px;
+	margin: 2%;
+	background-color: #EEE;
+
+
+}
+.chatK{
+	border-radius: 5px;
+	width: 90%;
+	height: 70px;
+	padding: 3px;
+	margin: 2%;
+	background-color: #CCC;
+	text-align: right;
+
+	
+}
+button{
+	background-color: tomato;
+	border: solid 1px darkred;
+	padding: 5px;
+	font-weight: bold;
+}
+#wiadomosc{
+	width: 500px;
+}
+.img1{
+	float: left;
+}
+.chatK > img {
+	float: right;
+}

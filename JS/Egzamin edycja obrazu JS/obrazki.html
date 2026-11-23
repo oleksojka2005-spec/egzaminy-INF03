@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Efekty obrazu</title>
+	<link rel="stylesheet" type="text/css" href="styl.css">
+</head>
+<body>
+	<header>
+		<h2>Efekty na obrazach</h2>
+	</header>
+	<main>
+		<div id="pole1">
+			<img src="k1.jpg" alt="pszczoła na fioletowym kwiatku" id="obraz1"><br>
+			<input type="radio" name="pszczola" id="blur">Blur<br>
+			<input type="radio" name="pszczola" id="sepia">Sepia<br>
+			<input type="radio" name="pszczola" id="negatyw">Negatyw<br>
+			<button onclick="pszczola()">Zastosuj</button>
+		</div>
+		<div id="pole2">
+			<img src="k2.jpg" alt="drzewo pomarańczy" id="obraz2"><br>
+			<button onclick="kolorowy()">Kolorowy</button>
+			<button onclick="czarny()">Czarno-biały</button>
+		</div>
+		
+		<div id="pole3">
+			<img src="k3.jpg" alt="Kosz pełen owoców" id="obraz3"><br>
+			<input type="range" id="k3" min="0" max="100" value="100"><br>
+			<button onclick="kontr()">Zastosuj</button>
+		</div>
+
+		
+
+		<div id="pole4">
+			<img src="k4.jpg" alt="Żółw w wodzie"><br>
+			<input type="range" id="k4" min="0" max="250" ><br>
+			<button>Zastosuj</button>
+
+		</div>
+
+</main>
+	
+	<footer>
+		<p>
+			<a href="http://www.css.com/">Zobacz inne efekty obrazu</a>
+
+		</p>
+		<p>
+			Stronę wykonał:0000000
+		</p>
+	</footer>
+	<script src="skrypt.js"></script>
+</body>
+</html>

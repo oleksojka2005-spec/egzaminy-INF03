@@ -1,0 +1,85 @@
+* {
+    font-family: Century, serif;
+    text-align: center;
+
+}
+
+
+header {
+    background-color: indigo;
+    color: white;
+    padding: 2px;
+    font-style: italic;
+}
+main {
+    
+
+   
+    background-color: white; 
+}
+
+
+button {
+    background-color: SlateBlue;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+#k3 {
+    width: 80%;
+}
+
+#k4 {
+    width: 80%;
+}
+
+#pole1 {
+    float: left;
+    width: 50%;
+    height: 470px;
+}
+
+#pole2 {
+    float: right;
+    width: 50%;
+    height: 470px;
+}
+
+#pole3 {
+    float: left;
+    width: 50%;
+    height: 470px;
+}
+
+#pole4 {
+    float: right;
+    width: 50%;
+    height: 470px;
+}
+
+img {
+    padding: 3px;
+    margin: 10px;
+    border: dashed 2px;
+    border-color: SlateBlue;
+}
+
+footer {
+    background-color: indigo; 
+    color: white;
+    padding: 2px;
+    font-style: italic;
+    clear: both;
+}
+
+a {
+    color: white;
+}
+button:hover{
+    background-color: indigo;
+}
